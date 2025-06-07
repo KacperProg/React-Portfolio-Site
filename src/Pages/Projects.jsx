@@ -12,7 +12,6 @@ function Projects() {
       description: 'This current site, rebuilt using React and Vite.',
       link: '#',
     },
-    // Add more here as you build
   ];
 
   return (
