@@ -1,4 +1,5 @@
 import { links } from '../data/links';
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 // styling added in elements for now and later moved to CSS. Easier for structuring CSS file later
 
@@ -13,13 +14,16 @@ function Home() {
           target="_blank" // Opens the link in a new tab
           rel="noopener noreferrer" // Security protocol, best practice 
           style={{
-            marginRight: '1rem',
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '0.5rem',
             padding: '0.5rem 1rem',
-            backgroundColor: '#0A66C2',
+            backgroundColor: '#333', 
             color: '#fff',
             borderRadius: '5px',
-          }}
+          }} 
         >
+          <FaLinkedin/>
           LinkedIn
         </a>
 
@@ -28,12 +32,16 @@ function Home() {
           target="_blank" // Opens the link in a new tab
           rel="noopener noreferrer" // Security protocol, best practice 
           style={{
+            display: 'inline-flex',
+            alignItems: 'center',
+            gap: '0.5rem',
             padding: '0.5rem 1rem',
             backgroundColor: '#333', 
             color: '#fff',
             borderRadius: '5px',
           }} 
         >
+          <FaGithub/>
           GitHub
         </a>
       </div>
