@@ -6,6 +6,8 @@ import {
     certification
 } from '../data/skills';
 
+// Skills mapped from dictionaries and lists/arrays created in skills.js for easier updating methodology
+
 function Skills() {
     return(
         <div style={{ padding: `1rem`}}>
@@ -16,6 +18,9 @@ function Skills() {
                 {progLang.map((lang) => (
                     <li key={lang.name}>{lang.name} | {lang.level}</li>
                 ))}
+
+                {/* Dictionary mapping logic immediately above*/}
+
             </ul>
             <h2>Languages</h2>
             <ul>
@@ -28,6 +33,9 @@ function Skills() {
                 {tools.map((tool) => (
                     <li key={tool}>{tool}</li>
                 ))}
+
+                {/* List/Array mapping logic immediately above*/}
+
             </ul>
             <h2>Soft Skills</h2>
             <ul>

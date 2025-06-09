@@ -13,7 +13,7 @@ export const progLang = [
 export const spokenLang = [
     {name: 'English', level: 'Native (C1)'},
     {name: 'Polish', level: 'Native (C1)'},
-    {name: 'Portuguese', level: 'Beginner (B2)'}
+    {name: 'Portuguese', level: 'Intermediate (B2)'}
 ];
 
 export const softSkills =[
