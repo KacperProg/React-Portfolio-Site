@@ -8,15 +8,19 @@ function Projects() {
       link: 'https://github.com/KacperProg/New_Portfolio_Website',
     },
     {
-      title: 'New React Portfolio (WIP)',
+      title: 'New React Portfolio',
       description: 'This current site, rebuilt using React and Vite.',
-      link: '#',
+      link: 'https://github.com/KacperProg/React-Portfolio-Site',
     },
   ];
 
   return (
     <div>
-      <h1>My Projects</h1>
+      <h1>My Projects</h1> 
+      
+      {/* mapping (for loop) allowing me to expand how many projects 
+      I list in this section based on contents of projects variable */}
+
       {projects.map((project, index) => (
         <ProjectCard
           key={index}
