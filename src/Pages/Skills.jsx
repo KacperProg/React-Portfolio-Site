@@ -1,10 +1,4 @@
-import {
-    progLang,
-    spokenLang,
-    tools,
-    softSkills,
-    certification
-} from '../data/skills';
+import {progLang, spokenLang, tools, softSkills, certification} from '../data/skills';
 
 // Skills mapped from dictionaries and lists/arrays created in skills.js for easier updating methodology
 
