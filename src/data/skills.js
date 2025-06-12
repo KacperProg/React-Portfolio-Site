@@ -1,15 +1,17 @@
-import { SiReact, SiJavascript, SiPython, SiJava, SiHtml5, SiCss3, SiPostgresql, SiGit } from "react-icons/si";
+import React from "react";
+// import { SiReact, SiJavascript, SiPython, SiJava, SiHtml5, SiCss3, SiPostgresql, SiGit } from "react-icons/si";
+import { SiReact, SiJavascript} from "react-icons/si";
 
 export const progLang = [
-    {name: 'JavaScript', level: 'Familiar', logo: <SiJavascript/>},
-    {name: 'React', level: 'Familiar', logo: <SiReact/>},
-    {name: 'HTML5', level: 'Familiar', logo: <SiHtml5/>},
-    {name: 'CSS3', level: 'Familiar', logo: <SiCss3/>},
-    {name: 'Java', level: 'Familiar', logo: <SiJava/>},
-    {name: 'PostgreSQL', level: 'Familiar', logo: <SiPostgresql/>},
-    {name: 'Python', level: 'Intermediate', logo: <SiPython/>},
-    {name: 'MATLAB', level: 'Intermediate', logo: <SiMatlab/>},
-    {name: 'Git', level: 'Proficient', logo: <SiGit/>}
+    {name: 'JavaScript', level: 'Familiar', logo: SiJavascript},
+    {name: 'React', level: 'Familiar', logo: SiReact}
+    // {name: 'HTML5', level: 'Familiar', logo: <SiHtml5/>},
+    // {name: 'CSS3', level: 'Familiar', logo: <SiCss3/>},
+    // {name: 'Java', level: 'Familiar', logo: <SiJava/>},
+    // {name: 'PostgreSQL', level: 'Familiar', logo: <SiPostgresql/>},
+    // {name: 'Python', level: 'Intermediate', logo: <SiPython/>},
+    // {name: 'MATLAB', level: 'Intermediate', logo: <SiMatlab/>},
+    // {name: 'Git', level: 'Proficient', logo: <SiGit/>}
 ];
 
 export const spokenLang = [

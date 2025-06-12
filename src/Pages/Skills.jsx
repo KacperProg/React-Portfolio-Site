@@ -10,7 +10,7 @@ function Skills() {
             <h2>Programming</h2>
             <ul>
                 {progLang.map((lang) => (
-                    <li key={lang.name}>{lang.name} | {lang.level}</li>
+                    <li key={lang.name}> {lang.name} | {lang.level}</li>
                 ))}
 
                 {/* Dictionary mapping logic immediately above*/}
