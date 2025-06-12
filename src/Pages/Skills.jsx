@@ -9,8 +9,14 @@ function Skills() {
             <p>Below find a list of all skills and relevant qualifications</p>
             <h2>Programming</h2>
             <ul>
-                {progLang.map((lang) => (
-                    <li key={lang.name}> {lang.name} | {lang.level}</li>
+                {progLang.map(({ name, level, logo: Icon }) => (
+                    <div key={name} className='flex items-center gap-3'>
+                        <Icon size={28} className='text-yellow-400' />
+                        <div>
+                            <p>{name}</p>
+                            <span className="text-xs text-gray-500">{level}</span>
+                        </div>
+                    </div>
                 ))}
 
                 {/* Dictionary mapping logic immediately above*/}
