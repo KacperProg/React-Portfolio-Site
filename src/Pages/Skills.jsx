@@ -8,13 +8,13 @@ function Skills() {
             <h1>Skills</h1>
             <p>Below find a list of all skills and relevant qualifications</p>
             <h2>Programming</h2>
-            <ul>
-                {progLang.map(({ name, level, logo: Icon }) => (
-                    <div key={name} className='flex items-center gap-3'>
-                        <Icon size={28} className='text-yellow-400' />
+            <ul>                           {/* fake error*/}
+                {progLang.map(({ name, level, logo: Icon }) => ( 
+                    <div key={name}> {/* add styling/classname here*/}
+                        <Icon size={28}/> {/* here*/}
                         <div>
                             <p>{name}</p>
-                            <span className="text-xs text-gray-500">{level}</span>
+                            <span >{level}</span> {/* and here to make logos appear next to text*/}
                         </div>
                     </div>
                 ))}

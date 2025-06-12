@@ -6,10 +6,10 @@ export const progLang = [
     {name: 'React', level: 'Familiar', logo: SiReact},
     {name: 'HTML5', level: 'Familiar', logo: SiHtml5},
     {name: 'CSS3', level: 'Familiar', logo: SiCss3},
-    {name: 'Java', level: 'Familiar', logo:SiCss3},
+    {name: 'Java', level: 'Familiar', logo:SiCss3}, // find and add logo for Java from online
     {name: 'PostgreSQL', level: 'Familiar', logo: SiPostgresql},
     {name: 'Python', level: 'Intermediate', logo: SiPython},
-    {name: 'MATLAB', level: 'Intermediate', logo:SiCss3},
+    {name: 'MATLAB', level: 'Intermediate', logo:SiCss3}, // find and add logo for MATLAB from online
     {name: 'Git', level: 'Proficient', logo: SiGit}
 ];
 
