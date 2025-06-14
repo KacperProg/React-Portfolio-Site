@@ -45,6 +45,8 @@ function Home() {
           GitHub
         </a>
       </div>
+      <h2>About me</h2>
+      <h3>I'm currently living in abc up-skilling by re-learning React</h3>
     </div>
   );
 }
