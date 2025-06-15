@@ -1,8 +1,9 @@
+import "./Navbar.css";
 import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
-    <nav style={{ backgroundColor: '#acc', padding: '1rem' }}>
+    <nav className="nav">
       {/* <img> My name turned into a logo </img> */}
       <h2 style={{ display: 'inline-block', marginRight: '2rem' }}>Kacper Nowak</h2>
       <Link to="/" style={{ marginRight: '1rem' }}>Home</Link>
