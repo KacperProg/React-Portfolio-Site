@@ -3,6 +3,11 @@
     padding: 1rem;
 }
 
+.name {
+    display: inline-block; 
+    marginRight: 2rem;
+}
+
 .linkBtn {
     margin-right: 2rem;
 }

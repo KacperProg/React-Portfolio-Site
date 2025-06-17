@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="navBar">
       {/* <img> My name turned into a logo </img> */}
-      <h2 style={{ display: 'inline-block', marginRight: '2rem' }}>Kacper Nowak</h2>
+      <h2 className="name">Kacper Nowak</h2>
       <Link to="/" className="linkBtn">Home</Link>
       <Link to="/projects" className="linkBtn">Projects</Link>
       <Link to="/skills" className="linkBtn">Skills</Link>
