@@ -1,4 +1,14 @@
-.nav { 
+.navBar { 
     background-color: '#acc';
-    padding: 1rem; 
+    padding: 1rem;
+}
+
+.linkBtn {
+    margin-right: 2rem;
+}
+
+.contact-container {
+    display: inline-block; 
+    margin-right: 2rem;
+    text-align: center;
 }
