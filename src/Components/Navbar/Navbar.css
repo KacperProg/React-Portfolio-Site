@@ -1,6 +1,26 @@
-.navBar { 
+.navBar {
     background-color: '#acc';
     padding: 1rem;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    transition: all 0.3s ease;
+}
+
+.navbar-shrink {
+    height: 50px;
+}
+
+.navBar-container {
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .name {
