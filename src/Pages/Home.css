@@ -1,0 +1,18 @@
+.link-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #333; 
+    color: #fff;
+    border-radius: 5px;
+}
+
+.buttons-container {
+    margin-top: 2rem;
+}
+
+.main-container {
+    text-align: center;
+    margin-top: 10rem;
+}
