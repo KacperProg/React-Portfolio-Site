@@ -47,7 +47,8 @@ function Home() {
       </div>
       <h2>About me</h2>
       <h3>I'm currently living in abc up-skilling by re-learning React</h3>
-      <p style={{paddingTop:"1000px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquid perspiciatis labore, sed ea inventore provident esse sequi voluptatibus mollitia officia, pariatur sit explicabo amet quos, iusto quis dolor. Aliquam?</p>
+      <p style={{paddingTop:"500px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquid perspiciatis labore, sed ea inventore provident esse sequi voluptatibus mollitia officia, pariatur sit explicabo amet quos, iusto quis dolor. Aliquam?</p>
+    {/* Text added to allow scrolling down on page for putting together size changing Navbar feature */}
     </div>
   );
 }

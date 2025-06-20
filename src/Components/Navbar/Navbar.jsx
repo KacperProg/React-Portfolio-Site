@@ -11,6 +11,8 @@ function Navbar() {
       setScrolled(window.scrollY > 50);
     };
 
+    // Scrolling changes 'scrolled' variable which affect 1st line of logic in return statement and changes size of Navbar
+
     window.addEventListener("scroll", whenScrolling);
     return () => window.removeEventListener("scroll", whenScrolling);
   }, []);

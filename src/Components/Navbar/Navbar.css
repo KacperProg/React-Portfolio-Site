@@ -1,39 +1,39 @@
 .navBar {
-    background-color:rgb(68, 196, 235);
-    padding: 1rem;
-    height: 80px;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 1000;
-    transition: all 0.3s ease;
+	background-color: #44c4eb;
+	padding: 1rem;
+	height: 80px;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	transition: all .3s ease;
 }
 
 .navbar-shrink {
-    height: 50px;
+	height: 50px;
 }
 
 .navBar-container {
-    max-width: 1200px;
-    height: 100%;
-    margin: 0 auto;
-    padding: 0 2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .name {
-    display: inline-block; 
-    marginRight: 2rem;
+	display: inline-block;
+	marginright: 2rem;
 }
 
 .linkBtn {
-    margin-right: 2rem;
+	margin-right: 2rem;
 }
 
 .contact-container {
-    display: inline-block; 
-    margin-right: 2rem;
-    text-align: center;
+	display: inline-block;
+	margin-right: 2rem;
+	text-align: center;
 }
