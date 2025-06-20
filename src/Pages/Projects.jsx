@@ -2,7 +2,7 @@ import ProjectCard from '../Components/ProjectCard';
 import homeImg from '../images/websiteHome.png';
 import eigenvalues from '../images/eigenvalues.png';
 import mainResults from '../images/mainResults.png';
-
+import "./Projects.css";
 
 
 function Projects() {
@@ -22,15 +22,7 @@ function Projects() {
 
   return (
     <div>
-      <div style={{
-        border: '1px solid #ddd', 
-        borderRadius: '10px', 
-        padding: '1rem', 
-        marginBottom: '1rem', 
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems:'center'}}
-        >
+      <div className='physics-containers'>
         <h1>My Projects</h1> 
         {/* Section to describe my final year project. Different to other ProjectCards as this will have double width
         and be highlighted at the top of the page. Remaining projects will display below. */}
@@ -38,8 +30,8 @@ function Projects() {
         <p>This project was part of my dissertation. I used advanced MATLAB code to analyse the topology of T-Cells.</p>
         <div > 
           {/* Div in the future use as container to display images in a row/in line in which case the style from img will be removed*/}
-          <img src={eigenvalues} style={{ display:'inline-flex', maxWidth: '50%' }}></img>
-          <img src={mainResults} style={{ display:'inline-flex', maxWidth: '50%' }}></img>
+          <img src={eigenvalues} className='physics-img'></img>
+          <img src={mainResults} className='physics-img'></img>
         </div>
       </div>
       {/* mapping (for loop) allowing me to expand how many projects 
