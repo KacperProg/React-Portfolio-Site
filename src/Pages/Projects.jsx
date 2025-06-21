@@ -1,7 +1,8 @@
-import ProjectCard from '../Components/ProjectCard';
-import homeImg from '../images/websiteHome.png';
-import eigenvalues from '../images/eigenvalues.png';
-import mainResults from '../images/mainResults.png';
+import ProjectCard from "../Components/ProjectCard";
+import homeImg from "../images/websiteHome.png";
+import thisWebsite from "../images/thisWebsite.png";
+import eigenvalues from "../images/eigenvalues.png";
+import mainResults from "../images/mainResults.png";
 import "./Projects.css";
 
 
@@ -17,7 +18,8 @@ function Projects() {
       title: 'New React Portfolio',
       description: 'This current site, constructed using React and Vite.',
       link: 'https://github.com/KacperProg/React-Portfolio-Site',
-    },
+      image: thisWebsite
+    }
   ]
 
   return (
@@ -38,7 +40,7 @@ function Projects() {
 
       {/* mapping (for loop) allowing me to expand how many projects 
       I list in this section based on contents of projects variable */}
-      
+
       <h2 className='physics-containers'>My Computing Projects</h2> 
       {projects.map((project, index) => (
         <div className='physics-img'>

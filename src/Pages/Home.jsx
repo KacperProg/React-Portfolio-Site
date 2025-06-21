@@ -7,7 +7,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className='main-container'> 
-      <h1>Hi, I'm Kacper Nowak 👋</h1>
+      <h1>Dzień dobry!👋</h1>
       <p>I'm 24 and I'm working on React right now!</p>
       <div className='buttons-container'>
         <a
