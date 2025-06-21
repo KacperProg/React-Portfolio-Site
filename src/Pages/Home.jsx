@@ -1,14 +1,22 @@
-import { links } from '../data/links';
-import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { links } from "../data/links";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import "./Home.css";
+import facePic from "../images/facePic.png";
 
 // styling added in elements for now and later moved to CSS. Easier for structuring CSS file later
 
 function Home() {
   return (
-    <div className='main-container'> 
-      <h1>Dzień dobry!👋</h1>
-      <p>I'm 24 and I'm working on React right now!</p>
+    <section className="main-container"> 
+      <section className="hero-section">
+        <div className="hero-left">
+          <h1>Dzień dobry!👋</h1>
+          <p>I'm 24 and I'm working on React right now!</p>
+        </div>
+        <div className="hero-right">
+          <img src={facePic} alt="This is me!" />
+        </div>
+      </section>
       <div className='buttons-container'>
         <a
           href={links.linkedin}
@@ -36,7 +44,7 @@ function Home() {
         <p style={{paddingTop:"500px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquid perspiciatis labore, sed ea inventore provident esse sequi voluptatibus mollitia officia, pariatur sit explicabo amet quos, iusto quis dolor. Aliquam?</p>
         {/* Text added to allow scrolling down on page for putting together size changing Navbar feature */}
       </article>
-    </div>
+    </section>
   );
 }
 
