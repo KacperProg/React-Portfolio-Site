@@ -22,8 +22,9 @@ function Projects() {
 
   return (
     <div>
+      <h1 className='physics-containers'>My Projects</h1> 
+      {/* Temp container ^ */}
       <div className='physics-containers'>
-        <h1>My Projects</h1> 
         {/* Section to describe my final year project. Different to other ProjectCards as this will have double width
         and be highlighted at the top of the page. Remaining projects will display below. */}
         <h2>My Final Year Physics project</h2>
@@ -34,17 +35,21 @@ function Projects() {
           <img src={mainResults} className='physics-img'></img>
         </div>
       </div>
+
       {/* mapping (for loop) allowing me to expand how many projects 
       I list in this section based on contents of projects variable */}
-
+      
+      <h2 className='physics-containers'>My Computing Projects</h2> 
       {projects.map((project, index) => (
-        <ProjectCard
-          key={index}
-          title={project.title}
-          description={project.description}
-          image={project.image}
-          link={project.link}
-        />
+        <div className='physics-img'>
+          <ProjectCard
+            key={index}
+            title={project.title}
+            description={project.description}
+            image={project.image}
+            link={project.link}
+          />
+        </div>
       ))}
     </div>
   );
