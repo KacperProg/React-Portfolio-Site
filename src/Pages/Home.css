@@ -9,10 +9,27 @@
 }
 
 .buttons-container {
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .main-container {
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 4rem;
+}
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 0 5%;
+}
+
+.hero-left {
+    flex: 0.7;
+}
+
+.hero-right {
+    flex: 0.3;
+    justify-content: center;
 }

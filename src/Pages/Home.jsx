@@ -12,32 +12,32 @@ function Home() {
         <div className="hero-left">
           <h1>Dzień dobry!👋</h1>
           <p>I'm 24 and I'm working on React right now!</p>
+          <div className='buttons-container'>
+          <a
+            href={links.linkedin}
+            target="_blank" // Opens the link in a new tab
+            rel="noopener noreferrer" // Security protocol, best practice 
+            className="link-button"
+          >
+            <FaLinkedin/>
+            LinkedIn
+          </a>
+          <a
+            href={links.github}
+            target="_blank" // Opens the link in a new tab
+            rel="noopener noreferrer" // Security protocol, best practice 
+            className="link-button" 
+          >
+            <FaGithub/>
+            GitHub
+          </a>
+        </div>
         </div>
         <div className="hero-right">
           <img src={facePic} alt="This is me!" />
         </div>
       </section>
-      <div className='buttons-container'>
-        <a
-          href={links.linkedin}
-          target="_blank" // Opens the link in a new tab
-          rel="noopener noreferrer" // Security protocol, best practice 
-          className="link-button"
-        >
-          <FaLinkedin/>
-          LinkedIn
-        </a>
-
-        <a
-          href={links.github}
-          target="_blank" // Opens the link in a new tab
-          rel="noopener noreferrer" // Security protocol, best practice 
-          className="link-button" 
-        >
-          <FaGithub/>
-          GitHub
-        </a>
-      </div>
+    
       <article>
         <h2>About me</h2>
         <h3>I'm currently living in abc up-skilling by re-learning React</h3>
