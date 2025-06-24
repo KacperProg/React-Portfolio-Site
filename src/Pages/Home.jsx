@@ -11,7 +11,8 @@ function Home() {
       <section className="hero-section">
         <div className="hero-left">
           <h1>Dzień dobry!👋</h1>
-          <p>I'm 24 and I'm working on React right now!</p>
+          <p>Welcome to my Portfolio website! Here you may find all my media sites, ways to contact me and a visual guide on my projects.</p>
+          <p>Get in contact via the following sources:</p>
           <div className='buttons-container'>
           <a
             href={links.linkedin}
