@@ -1,5 +1,5 @@
-.title {
-    display: flex;
-    align-content: center;
-    margin-top: 4rem;
+.main-container {
+    text-align: center;
+    margin-top: 7rem;
+    padding: 0 5%;
 }

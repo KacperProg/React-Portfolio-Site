@@ -14,25 +14,25 @@ function Home() {
           <p>Welcome to my Portfolio website! Here you may find all my media sites, ways to contact me and a visual guide on my projects.</p>
           <p>Get in contact via the following sources:</p>
           <div className='buttons-container'>
-          <a
-            href={links.linkedin}
-            target="_blank" // Opens the link in a new tab
-            rel="noopener noreferrer" // Security protocol, best practice 
-            className="link-button"
-          >
-            <FaLinkedin/>
-            LinkedIn
-          </a>
-          <a
-            href={links.github}
-            target="_blank" // Opens the link in a new tab
-            rel="noopener noreferrer" // Security protocol, best practice 
-            className="link-button" 
-          >
-            <FaGithub/>
-            GitHub
-          </a>
-        </div>
+            <a
+              href={links.linkedin}
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Security protocol, best practice 
+              className="link-button"
+            >
+              <FaLinkedin/>
+              LinkedIn
+            </a>
+            <a
+              href={links.github}
+              target="_blank" // Opens the link in a new tab
+              rel="noopener noreferrer" // Security protocol, best practice 
+              className="link-button" 
+            >
+              <FaGithub/>
+              GitHub
+            </a>
+          </div>
         </div>
         <div className="hero-right">
           <img src={facePic} alt="This is me!" />
