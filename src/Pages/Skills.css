@@ -1,5 +1,9 @@
 .main-container {
-    text-align: center;
     margin-top: 7rem;
-    padding: 0 5%;
+    padding: 1rem;
+    text-align: center;
+}
+
+.title {
+    padding: 0 14%;
 }

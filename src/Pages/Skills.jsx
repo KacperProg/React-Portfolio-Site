@@ -6,15 +6,16 @@ import "./Skills.css";
 function Skills() {
   return (
     <div className="main-container">
-      <div>
+      <div className="title">
         <h1>A Display page of my skills and qualifications!</h1>
       </div>
       <p>Below find a list of all skills and relevant qualifications</p>
       <div>
         <h2>Programming</h2>
-        <ul>
+        <ul>                      {/* fake error*/}
         {progLang.map(({ name, level, logo: Icon }) => (
           <div key={name}>
+              {/* add styling/classname here*/}
               <Icon size={28} /> {/* here*/}
               <div>
                 <p>{name}</p>
@@ -38,7 +39,6 @@ function Skills() {
           {tools.map((tool) => (
             <li key={tool}>{tool}</li>
           ))}
-
           {/* List/Array mapping logic immediately above*/}
         </ul>
         <h2>Soft Skills</h2>
