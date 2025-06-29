@@ -9,5 +9,18 @@
   margin-top: 8rem;
 }
 
-/* .title { */
-/* } */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem; 
+  justify-items: center;
+  align-items: center;
+}
+.skill-component {
+	background-color: #0a5065;
+  padding: 0.5rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+}

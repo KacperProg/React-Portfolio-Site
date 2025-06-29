@@ -10,9 +10,9 @@ function Skills() {
       <p>Below find a list of all skills and relevant qualifications</p>
       <div>
         <h2>Programming</h2>
-        <ul>                      {/* fake error*/}
-        {progLang.map(({ name, level, logo: Icon }) => (
-          <div key={name}>
+        <div className="skills-container">
+          {progLang.map(({ name, level, logo: Icon }) => (
+            <div key={name} className="skill-component">
               {/* add styling/classname here*/}
               <Icon size={28} /> {/* here*/}
               <div>
@@ -21,9 +21,9 @@ function Skills() {
                 {/* and here to make logos appear next to text*/}
               </div>
             </div>
-          ))}
-          {/* Dictionary mapping logic immediately above*/}
-        </ul>
+            ))}
+            {/* Dictionary mapping logic immediately above*/}
+        </div>
         <h2>Languages</h2>
         <ul>
           {spokenLang.map((lang) => (
