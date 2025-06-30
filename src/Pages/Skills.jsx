@@ -8,30 +8,35 @@ function Skills() {
     <div className="main-container">
       <h1 className="title">A Display page of my skills and qualifications!</h1>
       <p>Below find a list of all skills and relevant qualifications</p>
-      <div>
-        <h2>Programming</h2>
-        <div className="skills-container">
-          {progLang.map(({ name, level, logo: Icon }) => (
-            <div key={name} className="skill-component">
-              {/* add styling/classname here*/}
-              <Icon size={28} /> {/* here*/}
-              <div>
-                <p>{name}</p>
-                <span>{level}</span>{" "}
-                {/* and here to make logos appear next to text*/}
+        <div className="top-container">
+          <div className="left-container">
+            <h2>Programming</h2>
+            <div className='skills-container'>
+              {progLang.map(({ name, level, logo: Icon }) => (
+                <div key={name} className="skill-component">
+                  {/* add styling/classname here*/}
+                  <Icon size={28} /> {/* here*/}
+                  <div>
+                    <p>{name}</p>
+                    <span>{level}</span>{" "}
+                    {/* and here to make logos appear next to text*/}
+                  </div>
+                </div>
+                ))}
+                {/* Dictionary mapping logic immediately above*/}
               </div>
-            </div>
-            ))}
-            {/* Dictionary mapping logic immediately above*/}
+          </div>
+          <div className="right-container">
+            <h2>Languages</h2>
+            <ul>
+              {spokenLang.map((lang) => (
+                <li key={lang.name}>
+                  {lang.name} | {lang.level}
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
-        <h2>Languages</h2>
-        <ul>
-          {spokenLang.map((lang) => (
-            <li key={lang.name}>
-              {lang.name} | {lang.level}
-            </li>
-          ))}
-        </ul>
         <h2>Tools</h2>
         <ul>
           {tools.map((tool) => (
@@ -51,7 +56,6 @@ function Skills() {
             <li key={skill}>{skill}</li>
           ))}
         </ul>
-      </div>
     </div>
   );
 }

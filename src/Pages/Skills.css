@@ -11,7 +11,7 @@
 
 .skills-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 3rem; 
   justify-items: center;
   align-items: center;
@@ -23,4 +23,21 @@
   text-align: center;
   width: 100%;
   aspect-ratio: 1 / 1;
+}
+
+.right-container {
+  flex: 0.1;
+  justify-content: center;
+}
+
+.left-container {
+    flex: 0.9;
+    justify-content: center;
+}
+
+.top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
 }
