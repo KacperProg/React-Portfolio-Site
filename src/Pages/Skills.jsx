@@ -5,9 +5,11 @@ import "./Skills.css";
 
 function Skills() {
   return (
-    <div className="main-container">
-      <h1 className="title">A Display page of my skills and qualifications!</h1>
-      <p>Below find a list of all skills and relevant qualifications</p>
+    <div>
+      <div className="main-container">
+        <h1 className="title">A Display page of my skills and qualifications!</h1>
+        <p>Below find a list of all skills and relevant qualifications</p>
+      </div>
         <div className="top-container">
           <div className="left-container">
             <h2>Programming</h2>
