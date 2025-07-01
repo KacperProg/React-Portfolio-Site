@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   text-align: center;
-  min-height: 60vh;
+  min-height: 48vh;
   width: 100%;
-  margin-top: 8rem;
+  margin-top: 4rem;
 }
 
 .skills-container {
@@ -34,6 +34,7 @@
 
 .left-container {
   flex: 0.7;
+  text-align: center;
   justify-content: center;
   padding: 0 5%;
 }

@@ -33,6 +33,7 @@ function Skills() {
             <ul>
               {spokenLang.map((lang) => (
                 <li key={lang.name}>
+                  <img src={lang.flag} alt='lang.name' width='30px' />
                   {lang.name} | {lang.level}
                 </li>
               ))}
