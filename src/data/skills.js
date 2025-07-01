@@ -14,9 +14,9 @@ export const progLang = [
 ];
 
 export const spokenLang = [
-    {name: 'English', level: 'Native (C1)'},
-    {name: 'Polish', level: 'Native (C1)'},
-    {name: 'Portuguese', level: 'Intermediate (B2)'}
+    {name: 'English', level: 'Native (C1)', flag: 'https://flagcdn.com/192x144/gb.png'},
+    {name: 'Polish', level: 'Native (C1)', flag: 'https://flagcdn.com/192x144/pl.png'},
+    {name: 'Portuguese', level: 'Intermediate (B2)', flag: 'https://flagcdn.com/192x144/pt.png'}
 ];
 
 export const softSkills =[
