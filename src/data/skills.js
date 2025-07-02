@@ -1,5 +1,5 @@
 import React from "react";
-import { SiReact, SiJavascript, SiPython, SiHtml5, SiCss3, SiPostgresql, SiGit } from "react-icons/si";
+import { SiReact, SiJavascript, SiPython, SiHtml5, SiCss3, SiPostgresql, SiGit, SiPostman, SiSpringboot, SiOnlyoffice } from "react-icons/si";
 
 export const progLang = [
     {name: 'JavaScript', level: 'Familiar', logo: SiJavascript},
@@ -30,11 +30,10 @@ export const softSkills =[
 ];
 
 export const tools = [
-    'Git & GitHub',
-    'VS Code',
-    'MS365',
-    'Postman',
-    'Spring Boot'
+    {name: 'VS Code', logo: SiPostman},
+    {name: 'MS365', logo: SiOnlyoffice},
+    {name: 'Postman', logo: SiPostman},
+    {name: 'Spring Boot', logo: SiSpringboot}
 ];
 
 export const certification = [

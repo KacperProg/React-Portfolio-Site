@@ -33,7 +33,7 @@ function Skills() {
             <ul style={{listStyle: "none"}}>
               {spokenLang.map((lang) => (
                 <li key={lang.name}>
-                  <img src={lang.flag} alt='lang.name' width='30px' style={{marginRight: "10px"}} />
+                  <img src={lang.flag} alt="lang.name" width="30px" style={{marginRight: "10px"}} />
                    {lang.name} | {lang.level}
                 </li>
               ))}
@@ -47,17 +47,21 @@ function Skills() {
             </ul>
           </div>
         </div>
-    
-        <h2>Soft Skills</h2>
+        {/* <h2>Soft Skills</h2>
         <ul>
           {softSkills.map((skill) => (
             <li key={skill}>{skill}</li>
           ))}
-        </ul>
+        </ul> */}
         <h2>Certificates</h2>
         <ul>
-          {certification.map((skill) => (
-            <li key={skill}>{skill}</li>
+          {certification.map(({name, logo: Icon}) => (
+            // <li key={name}>
+            <div key={name}>
+              <p>{name}</p>
+              {/* <Icon size={28} /> here */}
+            </div>
+            // </li>
           ))}
         </ul>
     </div>
