@@ -30,23 +30,24 @@ function Skills() {
           </div>
           <div className="right-container">
             <h2>Languages</h2>
-            <ul>
+            <ul style={{listStyle: "none"}}>
               {spokenLang.map((lang) => (
                 <li key={lang.name}>
-                  <img src={lang.flag} alt='lang.name' width='30px' />
-                  {lang.name} | {lang.level}
+                  <img src={lang.flag} alt='lang.name' width='30px' style={{marginRight: "10px"}} />
+                   {lang.name} | {lang.level}
                 </li>
               ))}
             </ul>
+            <h2>Tools</h2>
+            <ul>
+              {tools.map((tool) => (
+                <li key={tool}>{tool}</li>
+              ))}
+              {/* List/Array mapping logic immediately above*/}
+            </ul>
           </div>
         </div>
-        <h2>Tools</h2>
-        <ul>
-          {tools.map((tool) => (
-            <li key={tool}>{tool}</li>
-          ))}
-          {/* List/Array mapping logic immediately above*/}
-        </ul>
+    
         <h2>Soft Skills</h2>
         <ul>
           {softSkills.map((skill) => (
