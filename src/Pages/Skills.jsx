@@ -16,12 +16,10 @@ function Skills() {
             <div className='skills-container'>
               {progLang.map(({ name, level, logo: Icon }) => (
                 <div key={name} className="skill-component">
-                  {/* add styling/classname here*/}
-                  <Icon size={28} /> {/* here*/}
+                  <Icon size={28} />
                   <div>
                     <p>{name}</p>
                     <span>{level}</span>{" "}
-                    {/* and here to make logos appear next to text*/}
                   </div>
                 </div>
                 ))}
@@ -30,33 +28,38 @@ function Skills() {
           </div>
           <div className="right-container">
             <h2>Languages</h2>
-            <ul>
+            <ul style={{listStyle: "none"}}>
               {spokenLang.map((lang) => (
                 <li key={lang.name}>
-                  <img src={lang.flag} alt='lang.name' width='30px' />
-                  {lang.name} | {lang.level}
+                  <img src={lang.flag} alt="lang.name" width="30px" style={{marginRight: "10px"}} />
+                   {lang.name} | {lang.level}
                 </li>
+              ))}
+            </ul>
+            <h2>Tools</h2>
+            <ul>    
+              {tools.map(({name, logo: Logo}) => (
+                <div key={name} className="tools-container">
+                    <Logo size={28}/>
+                    <p>{name}</p>
+                </div>
               ))}
             </ul>
           </div>
         </div>
-        <h2>Tools</h2>
-        <ul>
-          {tools.map((tool) => (
-            <li key={tool}>{tool}</li>
-          ))}
-          {/* List/Array mapping logic immediately above*/}
-        </ul>
-        <h2>Soft Skills</h2>
-        <ul>
-          {softSkills.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
+        <div className="soft-skills-container">
+          {/* Add logic here to make each skill word appear randomly within the spacing of the container every time you open the page*/}
+          <h2>Soft Skills</h2>
+          <ul>
+            {softSkills.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+        </div>
         <h2>Certificates</h2>
         <ul>
-          {certification.map((skill) => (
-            <li key={skill}>{skill}</li>
+          {certification.map((name) => (
+            <li key={name}>{name} </li>
           ))}
         </ul>
     </div>
