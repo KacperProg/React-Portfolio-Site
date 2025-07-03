@@ -40,8 +40,13 @@ function Skills() {
             </ul>
             <h2>Tools</h2>
             <ul>
-              {tools.map((tool) => (
-                <li key={tool}>{tool}</li>
+              {tools.map(({name, logo: Logo}) => (
+                <div key={name} className="tools-container">
+                  {/* <li key={name}> */}
+                    <Logo size={28}/>
+                    <p>{name}</p>
+                  {/* </li> */}
+                </div>
               ))}
               {/* List/Array mapping logic immediately above*/}
             </ul>
@@ -49,19 +54,14 @@ function Skills() {
         </div>
         {/* <h2>Soft Skills</h2>
         <ul>
-          {softSkills.map((skill) => (
+          {softSkills.map(({skill}) => (
             <li key={skill}>{skill}</li>
-          ))}
-        </ul> */}
+          ))} */}
+        {/* </ul> */}
         <h2>Certificates</h2>
         <ul>
-          {certification.map(({name, logo: Icon}) => (
-            // <li key={name}>
-            <div key={name}>
-              <p>{name}</p>
-              {/* <Icon size={28} /> here */}
-            </div>
-            // </li>
+          {certification.map((name) => (
+            <li key={name}>{name} </li>
           ))}
         </ul>
     </div>
