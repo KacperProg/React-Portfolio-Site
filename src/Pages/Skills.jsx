@@ -47,12 +47,15 @@ function Skills() {
             </ul>
           </div>
         </div>
-        <h2>Soft Skills</h2>
-        <ul>
-          {softSkills.map((skill) => (
-            <li key={skill}>{skill}</li>
-          ))}
-        </ul>
+        <div className="soft-skills-container">
+          {/* Add logic here to make each skill word appear randomly within the spacing of the container every time you open the page*/}
+          <h2>Soft Skills</h2>
+          <ul>
+            {softSkills.map((skill) => (
+              <li key={skill}>{skill}</li>
+            ))}
+          </ul>
+        </div>
         <h2>Certificates</h2>
         <ul>
           {certification.map((name) => (

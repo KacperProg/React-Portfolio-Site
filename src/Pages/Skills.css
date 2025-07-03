@@ -49,3 +49,8 @@
   display: flex;
   align-content: center;
 }
+
+.soft-skills-container {
+  display: flex;
+  justify-content: center;
+}
