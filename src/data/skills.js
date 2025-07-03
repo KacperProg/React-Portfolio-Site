@@ -37,6 +37,7 @@ export const tools = [
 ];
 
 export const certification = [
-    'Code Institute Bootcamp - Web Development',
-    'Bright Network - Full-Stack Engineering Bootcamp'
+    'Bright Network - Full-Stack Engineering Bootcamp',
+    'Project management - Google course',
+    'LinkedIn Learning React course'
 ];

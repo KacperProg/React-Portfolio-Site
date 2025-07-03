@@ -16,12 +16,10 @@ function Skills() {
             <div className='skills-container'>
               {progLang.map(({ name, level, logo: Icon }) => (
                 <div key={name} className="skill-component">
-                  {/* add styling/classname here*/}
-                  <Icon size={28} /> {/* here*/}
+                  <Icon size={28} />
                   <div>
                     <p>{name}</p>
                     <span>{level}</span>{" "}
-                    {/* and here to make logos appear next to text*/}
                   </div>
                 </div>
                 ))}
@@ -39,25 +37,22 @@ function Skills() {
               ))}
             </ul>
             <h2>Tools</h2>
-            <ul>
+            <ul>    
               {tools.map(({name, logo: Logo}) => (
                 <div key={name} className="tools-container">
-                  {/* <li key={name}> */}
                     <Logo size={28}/>
                     <p>{name}</p>
-                  {/* </li> */}
                 </div>
               ))}
-              {/* List/Array mapping logic immediately above*/}
             </ul>
           </div>
         </div>
-        {/* <h2>Soft Skills</h2>
+        <h2>Soft Skills</h2>
         <ul>
-          {softSkills.map(({skill}) => (
+          {softSkills.map((skill) => (
             <li key={skill}>{skill}</li>
-          ))} */}
-        {/* </ul> */}
+          ))}
+        </ul>
         <h2>Certificates</h2>
         <ul>
           {certification.map((name) => (
