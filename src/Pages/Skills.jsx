@@ -13,6 +13,7 @@ function Skills() {
         <div className="top-container">
           <div className="left-container">
             <h2>Programming</h2>
+            <p>Here are the coding languages I have academic, personal or profesional experience with:</p>
             <div className='skills-container'>
               {progLang.map(({ name, level, logo: Icon }) => (
                 <div key={name} className="skill-component">
