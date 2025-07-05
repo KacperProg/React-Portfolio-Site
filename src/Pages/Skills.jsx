@@ -4,10 +4,18 @@ import "./Skills.css";
 // Skills mapped from dictionaries and lists/arrays created in skills.js for easier updating methodology
 
 function Skills() {
+
+  const getGridColumn = (index) => {
+    const topRow = [1, 3, 5, 7, 9];
+    const bottomRow = [2, 4, 6, 8];
+
+    return index < 5 ? topRow[index] : bottomRow[index - 5];
+  };
+
   return (
     <div>
       <div className="main-container">
-        <h1 className="title">A Display page of my skills and qualifications!</h1>
+        <h1 className="title">Welcome to the display of my skills and qualifications!</h1>
         <p style={{margin: "3rem", fontStyle: "italic"}}>As a result of work experience as a Data Analyst, Full-stack Engineer and Physics Graduate, I acquired a vast selection of skills. I applied these in personal projects you may see on the Projects page.</p>
       </div>
         <div className="top-container">
@@ -15,9 +23,15 @@ function Skills() {
             <h2>Programming</h2>
             <p>Here are the coding languages I have academic, personal or profesional experience with:</p>
             <div className='skills-container'>
-              {progLang.map(({ name, level, logo: Icon }) => (
-                <div key={name} className="skill-component">
-                  <Icon size={38} style={{marginTop: "1rem"}} />
+              {progLang.map(({ name, level, logo: Icon  }) => (
+                <div 
+                  key={name} 
+                  className="skill-component" 
+                >
+                  <Icon 
+                    size={38} 
+                    style={{marginTop: "1rem"}} 
+                    />
                   <div>
                     <p>{name}</p>
                     <p style={{marginTop:"-1rem", fontWeight:"50"}}>{level}</p>
