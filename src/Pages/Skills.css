@@ -22,6 +22,7 @@
   justify-items: center;
   align-items: center;
 }
+
 .skill-component {
 	background-color: #0a5065;
   padding: 0.5rem;
@@ -33,7 +34,6 @@
 .left-container {
   flex: 0.7;
   text-align: center;
-  justify-content: center;
   padding: 0 5%;
 }
 
@@ -42,7 +42,12 @@
   padding: 0 5%;
 }
 
-.tools-container{
+.lang-container {
+  display: flex;
+  align-items: center;
+}
+
+.tools-container {
   display: flex;
   gap: 0.5rem;
   align-items: center;

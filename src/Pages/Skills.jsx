@@ -30,9 +30,10 @@ function Skills() {
             <h2>Languages</h2>
             <ul style={{listStyle: "none"}}>
               {spokenLang.map((lang) => (
-                <li key={lang.name}>
-                  <img src={lang.flag} alt="lang.name" width="30px" style={{marginRight: "10px"}} />
-                   {lang.name} | {lang.level}
+                <li key={lang.name} className="lang-container">
+                  <img src={lang.flag} alt={lang.name} width="30px" style={{marginRight: "10px"}} />
+                  <p></p>
+                  {lang.name} | {lang.level}
                 </li>
               ))}
             </ul>
