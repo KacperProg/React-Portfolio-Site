@@ -1,5 +1,7 @@
 import React from "react";
-import { SiReact, SiJavascript, SiPython, SiHtml5, SiCss3, SiPostgresql, SiGit, SiPostman, SiSpringboot, SiOnlyoffice } from "react-icons/si";
+import { SiReact, SiJavascript, SiPython, SiHtml5, SiCss3, SiPostgresql, SiGit, SiPostman, SiSpringboot, SiSpyderide } from "react-icons/si";
+import { RiFileExcel2Line } from "react-icons/ri";
+import { VscVscode } from "react-icons/vsc";
 
 export const progLang = [
     {name: 'JavaScript', level: 'Familiar', logo: SiJavascript},
@@ -30,14 +32,15 @@ export const softSkills =[
 ];
 
 export const tools = [
-    {name: 'VS Code', logo: SiPostman},
-    {name: 'MS365', logo: SiOnlyoffice},
+    {name: 'VS Code', logo: VscVscode},
+    {name: 'Spyder (Python)', logo: SiSpyderide},
+    {name: 'MS Excel', logo: RiFileExcel2Line},
     {name: 'Postman', logo: SiPostman},
     {name: 'Spring Boot', logo: SiSpringboot}
 ];
 
 export const certification = [
     'Bright Network - Full-Stack Engineering Bootcamp',
-    'Project management - Google course',
-    'LinkedIn Learning React course'
+    'Google Project Management: Professional Certificate (Work in progress!)',
+    'LinkedIn Learning React course (Work in progress!)'
 ];

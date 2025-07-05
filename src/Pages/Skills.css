@@ -6,7 +6,14 @@
   text-align: center;
   min-height: 48vh;
   width: 100%;
-  margin-top: 4rem;
+  margin-top: 6rem;
+}
+
+.top-container {
+  margin-top: -3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .skills-container {
@@ -16,41 +23,55 @@
   justify-items: center;
   align-items: center;
 }
+
 .skill-component {
 	background-color: #0a5065;
   padding: 0.5rem;
   border-radius: 10px;
-  text-align: center;
   width: 100%;
   aspect-ratio: 1 / 1;
-}
-
-.right-container {
-  flex: 0.3;
-  justify-content: center;
-  align-items: center;
-  padding: 0 5%;
 }
 
 .left-container {
   flex: 0.7;
   text-align: center;
-  justify-content: center;
   padding: 0 5%;
 }
 
-.top-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.right-container {
+  flex: 0.3;
+  margin: 2rem;
+  padding: 0 3%;
+  text-align: center;
+	background-color: #0a5065;
+  border-radius: 150px;
 }
 
-.tools-container{
+.lang-container {
   display: flex;
-  align-content: center;
+  align-items: center;
+  margin-left: 0.5rem;
+}
+
+.tools-container {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-left: 0.5rem;
 }
 
 .soft-skills-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin-right: 18rem;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(28, 133, 96);
+  border-radius: 10rem;
+  margin: 2rem;
 }
