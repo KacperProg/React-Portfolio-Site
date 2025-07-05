@@ -4,14 +4,6 @@ import "./Skills.css";
 // Skills mapped from dictionaries and lists/arrays created in skills.js for easier updating methodology
 
 function Skills() {
-
-  const getGridColumn = (index) => {
-    const topRow = [1, 3, 5, 7, 9];
-    const bottomRow = [2, 4, 6, 8];
-
-    return index < 5 ? topRow[index] : bottomRow[index - 5];
-  };
-
   return (
     <div>
       <div className="main-container">
