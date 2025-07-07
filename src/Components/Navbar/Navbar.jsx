@@ -1,6 +1,8 @@
 import "./Navbar.css";
 import { Link } from 'react-router-dom';
 import { useEffect, useState } from "react";
+import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa"; 
+import { GoMail } from "react-icons/go";
 
 function Navbar() {
 
@@ -26,12 +28,10 @@ function Navbar() {
         <Link to="/projects" className="linkBtn">Projects</Link>
         <Link to="/skills" className="linkBtn">Skills</Link>
         <div className="contact-container">
-          <h3>Email me</h3>
-          <p>kacper.nowak20@outlook.com</p>
-        </div>
-        <div className="contact-container">
-          <h3>Call me</h3>
-          <p>+447487646300</p>
+          <h3>Contact me:</h3>
+          <GoMail size={28}/>
+          <FaLinkedin size={28}/>
+          <FaWhatsapp size={28}/>
         </div>
       </div>
     </nav>
