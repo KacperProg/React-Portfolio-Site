@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { FaWhatsapp, FaLinkedin, FaGithub } from "react-icons/fa"; 
 import { GoMail } from "react-icons/go";
 import { links } from "../../data/links";
+import myLogo from "../../images/myLogo.png";
 
 function Navbar() {
 
@@ -24,13 +25,14 @@ function Navbar() {
     <nav className={`navBar ${scrolled ? "navbar-shrink" : ""}`} >
       {/* <img> My name turned into a logo </img> */}
       <div className="navBar-container" >
+        <img src={myLogo} style={{width:"80px"}}/>
         <h2 className="name">Kacper Nowak</h2>
         <Link to="/" className="linkBtn">Home</Link>
         <Link to="/projects" className="linkBtn">Projects</Link>
         <Link to="/skills" className="linkBtn">Skills</Link>
         <div className="contact-container">
           <h3>Contact me:</h3>
-          <a href={links.mail}>
+          <a href={links.mail} style={{alignItems:"center"}}>
             <GoMail size={28}/>
           </a>
           <a href={links.linkedin}>

@@ -16,8 +16,7 @@
 .navBar-container {
 	max-width: 1200px;
 	height: 100%;
-	margin: 0 auto;
-	padding: 0 2rem;
+	margin: 0 4rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -25,16 +24,18 @@
 
 .name {
 	display: inline-block;
-	margin-right: 2rem;
+	margin-right: 10rem;
 }
 
 .linkBtn {
-	margin-right: 2rem;
+	margin-right: 1rem;
 }
 
 .contact-container {
 	display: flex;
 	align-items: center;
 	gap: 1.2rem;
-	margin-left: 2rem;
+	background-color: cadetblue;
+	border-radius: 2rem;
+	padding: 0.2rem 1.5rem;
 }
