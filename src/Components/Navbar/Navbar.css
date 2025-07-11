@@ -14,7 +14,7 @@
 }
 
 .navBar-container {
-	max-width: 1200px;
+	max-width: 1400px;
 	height: 100%;
 	margin: 0 4rem;
 	display: flex;
@@ -38,4 +38,5 @@
 	background-color: cadetblue;
 	border-radius: 2rem;
 	padding: 0.2rem 1.5rem;
+	margin-left: 2rem;
 }

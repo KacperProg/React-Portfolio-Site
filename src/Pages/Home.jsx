@@ -11,8 +11,8 @@ function Home() {
       <section className="hero-section">
         <div className="hero-left">
           <h1>Dzień dobry!👋</h1>
-          <p>Welcome to my Portfolio website! Here you may find all my media sites, ways to contact me and a visual guide on my projects.</p>
-          <p>Get in contact via the following sources:</p>
+          <p>Welcome to my Portfolio website! Enjoy browsing through my past and future projects.</p>
+          <p>Important links:</p>
           <div className='buttons-container'>
             <a
               href={links.linkedin}
@@ -38,7 +38,7 @@ function Home() {
           <img src={facePic} alt="This is me!" />
         </div>
       </section>
-    
+      <h2 style={{marginTop:"-6rem"}}>Scroll down to learn more about me!</h2>
       <article>
         <h2>About me</h2>
         <h3>I'm currently living in abc up-skilling by re-learning React</h3>

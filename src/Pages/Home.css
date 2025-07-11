@@ -12,17 +12,13 @@
     margin-top: 0rem;
 }
 
-.main-container {
-    text-align: center;
-    margin-top: 4rem;
-}
-
 .hero-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100vh;
-    padding: 0 5%;
+    margin-top: -5rem;
+    gap: 4rem;
 }
 
 .hero-left {
