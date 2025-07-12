@@ -7,7 +7,7 @@ import facePic from "../images/facePic.png";
 
 function Home() {
 
-  const aboutMe = [
+  const heroRight = [
     {
       header: "1 Year",
       text: "Experience as a Data Analyst"
@@ -54,14 +54,22 @@ function Home() {
             </a>
           </div>
         </div>
-        <div className="hero-right">
-          <img src={facePic} alt="This is me!" />
+        <div className="hero-right">          
+          {heroRight.map((card, index) => (
+            <div key={index} className="hero-component">
+              {card.header}
+              {card.text}
+            </div>
+          ))}
         </div>
       </section>
       <h2 style={{marginTop:"-6rem"}}>Scroll down to learn more about me!</h2>
       <article>
         <h2>About me</h2>
-        <p>I'm Kacper, a 24 year old Data Analyst with a degree in Physics and pasion for tech. </p>
+        <div>
+          <p>I'm Kacper, a 24 year old Data Analyst with a degree in Physics and pasion for tech. </p>
+          <img src={facePic} alt="This is me!" />
+        </div>
         <h2>Hobbies, Intrests and Responsibilities</h2>
         <p></p>
       </article>

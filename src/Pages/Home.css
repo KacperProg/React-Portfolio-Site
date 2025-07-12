@@ -28,4 +28,18 @@
 .hero-right {
     flex: 0.3;
     justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem; 
+    justify-items: center;
+    align-items: center;
+
+}
+
+.hero-component {
+  background-color: #59abc4;
+  padding: 0.5rem;
+  border-radius: 50px;
+  width: 90%;
+  aspect-ratio: 1 / 1;
 }
