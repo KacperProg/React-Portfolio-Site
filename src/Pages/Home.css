@@ -8,17 +8,13 @@
     border-radius: 5px;
 }
 
-.buttons-container {
-    margin-top: 0rem;
-}
-
 .hero-section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 100vh;
     margin-top: -5rem;
-    gap: 4rem;
+    gap: 1rem;
 }
 
 .hero-left {
@@ -30,16 +26,33 @@
     justify-content: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem; 
+    gap: 2rem;
     justify-items: center;
     align-items: center;
-
+    margin-right: 5rem;
 }
 
 .hero-component {
   background-color: #59abc4;
   padding: 0.5rem;
   border-radius: 50px;
-  width: 90%;
+  width: 80%;
   aspect-ratio: 1 / 1;
+}
+
+.hobbies-container {
+    display: grid;
+    padding: 1rem 2rem;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+
+
+.hobby-component {
+    background-color: #59abc4;
+    border-radius: 50px;
+    width: 40%;
+    aspect-ratio: 2 / 1;
+    padding: 0 1rem;
 }

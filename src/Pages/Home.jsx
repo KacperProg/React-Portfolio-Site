@@ -26,12 +26,27 @@ function Home() {
     }
   ];
 
+  const hobbiesBoxes = [
+    {
+      name: "Football",
+      desc: "Captained the Physics Football Team"
+    },
+    {
+      name: "Local Polish Church",
+      desc: "Maintenance, Cleaning and General help in the community"
+    },
+    {
+      name: "Video Games",
+      desc: "Semi-pro level on Fifa"
+    }
+  ];
+
   return (
     <section className="main-container"> 
       <section className="hero-section">
         <div className="hero-left">
           <h1>Dzień dobry!👋</h1>
-          <p>Welcome to my Portfolio website! Enjoy browsing through my past and future projects.</p>
+          <p style={{padding: "0 12%"}}>Welcome to my Portfolio website! Browse through my coding and personal projects, learn more about me or use the relevant links to find me on various platforms!</p>
           <p>Important links:</p>
           <div className='buttons-container'>
             <a
@@ -57,8 +72,8 @@ function Home() {
         <div className="hero-right">          
           {heroRight.map((card, index) => (
             <div key={index} className="hero-component">
-              {card.header}
-              {card.text}
+              <h4>{card.header}</h4>
+              <p>{card.text}</p>
             </div>
           ))}
         </div>
@@ -67,11 +82,18 @@ function Home() {
       <article>
         <h2>About me</h2>
         <div>
-          <p>I'm Kacper, a 24 year old Data Analyst with a degree in Physics and pasion for tech. </p>
+          <p>I'm Kacper, a 24 year old Data Analyst with a degree in Physics and pasion for tech. Having graduated in 2023 I wanted a break from Physics and wanted to complete a transition to a coding role but wasn't able to find a way into it. Eventually I found a role in Data Analysis which I fell in love with. </p>
           <img src={facePic} alt="This is me!" />
         </div>
         <h2>Hobbies, Intrests and Responsibilities</h2>
-        <p></p>
+        <div className="hobbies-container">          
+          {hobbiesBoxes.map((hobby, index) => (
+            <div key={index} className="hobby-component">
+              <h4>{hobby.name}</h4>
+              <p>{hobby.desc}</p>
+            </div>
+          ))}
+        </div>      
       </article>
     </section>
   );
