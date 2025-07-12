@@ -6,6 +6,26 @@ import facePic from "../images/facePic.png";
 // styling added in elements for now and later moved to CSS. Easier for structuring CSS file later
 
 function Home() {
+
+  const aboutMe = [
+    {
+      header: "1 Year",
+      text: "Experience as a Data Analyst"
+    },
+    {
+      header: "MPhys Degree",
+      text: "from the University of Leeds"
+    },
+    {
+      header: "20",
+      text: "Full-Stack projects developed"
+    },
+    {
+      header: "100%",
+      text: "Commitment to my work!"
+    }
+  ];
+
   return (
     <section className="main-container"> 
       <section className="hero-section">
@@ -41,9 +61,9 @@ function Home() {
       <h2 style={{marginTop:"-6rem"}}>Scroll down to learn more about me!</h2>
       <article>
         <h2>About me</h2>
-        <h3>I'm currently living in abc up-skilling by re-learning React</h3>
-        <p style={{paddingTop:"500px"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima aliquid perspiciatis labore, sed ea inventore provident esse sequi voluptatibus mollitia officia, pariatur sit explicabo amet quos, iusto quis dolor. Aliquam?</p>
-        {/* Text added to allow scrolling down on page for putting together size changing Navbar feature */}
+        <p>I'm Kacper, a 24 year old Data Analyst with a degree in Physics and pasion for tech. </p>
+        <h2>Hobbies, Intrests and Responsibilities</h2>
+        <p></p>
       </article>
     </section>
   );
