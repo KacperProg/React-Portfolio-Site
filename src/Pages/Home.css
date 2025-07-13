@@ -17,6 +17,7 @@
     gap: 1rem;
 }
 
+
 .hero-left {
     flex: 0.7;
 }
@@ -55,4 +56,15 @@
     width: 40%;
     aspect-ratio: 2 / 1;
     padding: 0 1rem;
+}
+
+.title-text {
+    font-family: Playfair Display, serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.body-text {
+    font-family: monospace;
 }

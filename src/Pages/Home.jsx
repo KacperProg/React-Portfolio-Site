@@ -45,8 +45,12 @@ function Home() {
     <section className="main-container"> 
       <section className="hero-section">
         <div className="hero-left">
-          <h1>Dzień dobry!👋</h1>
-          <p style={{padding: "0 12%"}}>Welcome to my Portfolio website! Browse through my coding and personal projects, learn more about me or use the relevant links to find me on various platforms!</p>
+          <h1 className="title-text">Welcome!👋</h1>
+          <p 
+            style={{padding: "0 12%"}}
+            className="body-text"
+            >
+              Welcome to my Portfolio website! Browse through my coding and personal projects, learn more about me or use the relevant links to find me on various platforms!</p>
           <p>Important links:</p>
           <div className='buttons-container'>
             <a
@@ -72,8 +76,8 @@ function Home() {
         <div className="hero-right">          
           {heroRight.map((card, index) => (
             <div key={index} className="hero-component">
-              <h4>{card.header}</h4>
-              <p>{card.text}</p>
+              <h4 style={{fontFamily:"sans-serif", fontSize: "22px", fontStyle:"italic"}}>{card.header}</h4>
+              <p style={{fontSize: "14px"}}>{card.text}</p>
             </div>
           ))}
         </div>
