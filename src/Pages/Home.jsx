@@ -81,9 +81,9 @@ function Home() {
       </section>
       {/* <h2 style={{marginTop:"-6rem"}}>Scroll down to learn more about me!</h2> */}
       <article>
-        <h2>About me</h2>
-        <div>
-          <p>I'm Kacper, a 24 year old Data Analyst with a degree in Physics and pasion for tech. Having graduated in 2023 I wanted a break from Physics and wanted to complete a transition to a coding role but wasn't able to find a way into it. Eventually I found a role in Data Analysis which I fell in love with. </p>
+        <h2 style={{fontSize: "34px"}}>About me</h2>
+        <div className="aboutme-container">
+          <p style={{padding:"6rem"}}>I'm Kacper, a 24 year old Data Analyst with a degree in Physics and pasion for tech. Having graduated in 2023 I wanted a break from Physics and wanted to complete a transition to a coding role but wasn't able to find a way into it. Eventually I found a role in Data Analysis which I fell in love with. </p>
           <img src={facePic} alt="This is me!" />
         </div>
         <h2>Hobbies, Intrests and Responsibilities</h2>
