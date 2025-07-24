@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton&display=swap');
+
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -31,6 +33,27 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  color: rgb(205, 231, 254);
+  font-family: 'Neuton', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'Neuton', serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+    font-weight: lighter;
+}
+
+h3 {
+  font-weight: lighter;
+  font-family: Playfair Display, serif;
+}
+
+p {
+  font-family: Playfair Display, serif;
+
 }
 
 button {

@@ -45,13 +45,10 @@ function Home() {
     <section className="main-container"> 
       <section className="hero-section">
         <div className="hero-left">
-          <h1 className="title-text">Welcome!👋</h1>
-          <p 
-            style={{padding: "0 12%"}}
-            className="body-text"
-            >
-              Welcome to my Portfolio website! Browse through my coding and personal projects, learn more about me or use the relevant links to find me on various platforms!</p>
-          <p>Important links:</p>
+          <h1 className="title-text">Welcome to my portfolio website!👋</h1>
+          <p className="body-text"> My name is Kacper Nowak and I hope you enjoy browsing through this project. Here you may find my personal projects, learn more about me or use the relevant links to find me on various platforms!</p>
+          <h2>Learn more about me by scrolling down or browse my LinekdIn/GitHub:</h2>
+
           <div className='buttons-container'>
             <a
               href={links.linkedin}
@@ -82,7 +79,7 @@ function Home() {
           ))}
         </div>
       </section>
-      <h2 style={{marginTop:"-6rem"}}>Scroll down to learn more about me!</h2>
+      {/* <h2 style={{marginTop:"-6rem"}}>Scroll down to learn more about me!</h2> */}
       <article>
         <h2>About me</h2>
         <div>
