@@ -77,6 +77,11 @@
     padding: 0.5rem;
 }
 
+.about-section {
+    font-size: 34px;
+    margin: -2rem 0;
+}
+
 .aboutme-container {
     display: flex;
     align-items: center;

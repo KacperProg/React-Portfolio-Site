@@ -18,7 +18,7 @@ export const progLang = [
 export const spokenLang = [
     {name: 'English', level: 'Native (C1)', flag: 'https://flagcdn.com/192x144/gb.png'},
     {name: 'Polish', level: 'Native (C1)', flag: 'https://flagcdn.com/192x144/pl.png'},
-    {name: 'Portuguese', level: 'Intermediate (B2)', flag: 'https://flagcdn.com/192x144/pt.png'}
+    {name: 'Portuguese', level: 'Beginner (A1)', flag: 'https://flagcdn.com/192x144/pt.png'}
 ];
 
 export const softSkills =[
@@ -41,6 +41,6 @@ export const tools = [
 
 export const certification = [
     'Bright Network - Full-Stack Engineering Bootcamp',
-    'Google Project Management: Professional Certificate (Work in progress!)',
-    'LinkedIn Learning React course (Work in progress!)'
+    'Google Data Analytics Professional Certificate',
+    'LinkedIn Learning Microsoft Azure Beginners (Work in progress!)'
 ];

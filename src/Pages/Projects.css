@@ -1,4 +1,4 @@
-.physics-containers {
+.computing-containers {
     border: 1px solid #ddd; 
     border-radius: 10px; 
     padding: 1rem;
@@ -8,8 +8,50 @@
     flex-direction: column;
     align-items: center;
 }
+.physics-nested-containers {
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    padding: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem -8rem;
+}
 
-.physics-img {
+.projects-title {
+    padding: 1rem;
+    font-size: 60px;
+    margin-top: 9rem;
+    margin-bottom: -4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.computing-img {
     display: inline-flex;
     max-width: 50%;
+}
+
+.physics-containers {
+    padding: 1rem;  
+    border-radius: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.physics-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr; /* 2 columns */
+    gap: 16px;
+}
+
+.physics-img {
+    width: 100%;
+    max-height: 200px; /* keeps uniform height */
+    object-fit: contain; /* keeps aspect ratio */
+    border: 1px solid #ddd;
+    border-radius: 10px;
 }
