@@ -23,16 +23,18 @@ function Navbar() {
 
   return (
     <nav className={`navBar ${scrolled ? "navbar-shrink" : ""}`} >
-      {/* <img> My name turned into a logo </img> */}
       <div className="navBar-container" >
-        <img src={myLogo} style={{width:"80px"}}/>
+
+        <img src={myLogo} className="logo" alt="Kacper Nowak Logo"/>
         <h2 className="name">Kacper Nowak</h2>
+
         <Link to="/" className="linkBtn">Home</Link>
         <Link to="/projects" className="linkBtn">Projects</Link>
         <Link to="/skills" className="linkBtn">Skills</Link>
-        <div className="contact-container">
+        <aside className="contact-container">
+
           <h3>Contact me:</h3>
-          <a href={links.mail} style={{alignItems:"center"}}>
+          <a href={links.mail} aria-label="LinkedIn Profile">
             <GoMail size={28}/>
           </a>
           <a href={links.linkedin}>
@@ -41,7 +43,7 @@ function Navbar() {
           <a href={links.phone}>
             <FaWhatsapp size={28}/>
           </a>
-        </div>
+        </aside>
       </div>
     </nav>
   );
