@@ -87,8 +87,13 @@ function Home() {
       <article>
         <h2 className="about-section">About me</h2>
         <div className="aboutme-container">
-          <p style={{padding:"6rem"}}>I'm Kacper, a 24 year old Physics Graduate with a passion for tech. Here is a AI-Generated image of me in a suit! I plan for this to eventually be a "slide-show" of me in various random settings.</p>
-          <img src={facePic} style={{maxWidth: "28%"}} alt="This is me!" />
+ 
+          <p style={{padding:"9rem"}}>
+            I’m a curious problem-solver with a background in physics, finance, and full-stack development. I thrive on learning new skills, exploring diverse fields, and connecting ideas across disciplines. From coding projects to fund operations, I enjoy tackling complex challenges and delivering practical solutions. I’m usually exploring ways to grow personally and professionally — always looking for the next thing to learn. <br></br> <br />
+            Here is a AI-Generated image of me in a suit! I plan for this to eventually be a "slide-show" of me in various random settings.
+          </p>
+ 
+          <img src={facePic} style={{maxWidth: "28%", borderRadius: "20px"}} alt="This is me!" />
         </div>
         <h2>Hobbies, Intrests and Responsibilities</h2>
         <div className="hobbies-container">          
