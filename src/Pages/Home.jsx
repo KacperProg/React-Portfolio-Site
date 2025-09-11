@@ -29,15 +29,19 @@ function Home() {
   const hobbiesBoxes = [
     {
       name: "Football",
-      desc: "Captained the Physics Football Team"
+      desc: "Captained the Physics Football Team. Currently playing casually."
     },
     {
       name: "Local Polish Church",
-      desc: "Maintenance, Cleaning and General help in the community"
+      desc: "Maintenance, Cleaning and General help in the community in my family town of Corby."
     },
     {
       name: "Video Games",
-      desc: "Competed in Amateur gaming competitions in Fifa and Street Fighter"
+      desc: "Competed in Amateur gaming competitions in Fifa and Street Fighter."
+    },
+    {
+      name: "Professional Development",
+      desc: "I love exploring diverse fields, constantly upskilling and connecting ideas across disciplines."
     }
   ];
 

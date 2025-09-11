@@ -50,7 +50,7 @@
     display: grid;
     padding: 1rem 2rem;
     align-items: center;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
 
@@ -58,7 +58,7 @@
 .hobby-component {
     background-color: #2dbd816b;
     border-radius: 50px;
-    width: 40%;
+    width: 65%;
     aspect-ratio: 2 / 1;
     padding: 0 1rem;
 }

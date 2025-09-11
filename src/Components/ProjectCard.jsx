@@ -11,12 +11,13 @@ function ProjectCard({ title, description, image, link }) {
         alignItems:'center'
       }}
     >
-      <h3 style={{color:'grey'}}>{title}</h3>
+      <h3>{title}</h3>
       <p>{description}</p>
-      {image && <img src={image} alt={`${title || 'Project'} screenshot`} style={{ display:'flex', maxWidth: '50%' }} />} 
+      {image && <img src={image} alt={`${title || 'Project'} screenshot`} style={{ display:'flex', maxWidth: '50%' }} />}
+
       {/*&& is an "if provided" statement if image variable is missing 
-      maxWidth best practice for responsive design 
       || is a logical OR for error handling if Project title is missing*/}
+
       <a href={link} target="_blank" rel="noopener noreferrer">View Project</a>
     </div>
   );

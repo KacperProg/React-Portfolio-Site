@@ -41,9 +41,9 @@ function Projects() {
           <p style={{marginTop: '-0.5rem'}}>Understanding the membrane proteins is essential for uncovering the causes for conditions such as the Auto-Immune Disease</p>
           
           <div className="physics-grid">
-            <img src={eigenvalues} alt="Eigenvalues" className="physics-img" />
             <img src={mainResults} alt="Main Results" className="physics-img" />
             <img src={HeatMapPlot} alt="Heat Map" className="physics-img" />
+            <img src={eigenvalues} alt="Eigenvalues" className="physics-img" />
             <img src={JaccardIndecies} alt="Jaccard Indices" className="physics-img" />
           </div>
 
